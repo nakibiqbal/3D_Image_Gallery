@@ -1,27 +1,30 @@
-import edit16 from "../Assets/edit16.png";
-import edit1 from "../Assets/edit1.png";
-import edit2 from "../Assets/edit2.png";
-import edit3 from "../Assets/edit3.png";
+import edit16 from "../Assets/edit16.jpg";
+import edit1 from "../Assets/edit1.jpg";
+import edit2 from "../Assets/edit2.jpg";
+import edit3 from "../Assets/edit3.jpg";
 import edit5 from "../Assets/edit5.jpg";
-import edit6 from "../Assets/edit6.png";
-import edit7 from "../Assets/edit7.png";
-import edit8 from "../Assets/edit8.png";
-import edit9 from "../Assets/edit9.png";
-import edit12 from "../Assets/edit12.png";
-import edit13 from "../Assets/edit13.png";
-import edit17 from "../Assets/edit17.png";
+import edit6 from "../Assets/edit6.jpg";
+import edit7 from "../Assets/edit7.jpg";
+import edit8 from "../Assets/edit8.jpg";
+import edit9 from "../Assets/edit9.jpg";
+import edit12 from "../Assets/edit12.jpg";
+import edit13 from "../Assets/edit13.jpg";
+import edit17 from "../Assets/edit17.jpg";
 import n1 from "../Assets/n1.jpg";
 import n2 from "../Assets/n2.jpg";
 import n3 from "../Assets/n3.jpg";
 import n4 from "../Assets/n4.jpg";
-import na1 from "../Assets/na1.png";
+import na1 from "../Assets/na1.jpg";
 import NAKIB5 from "../Assets/NAKIB5.jpg";
 import NAKIB6 from "../Assets/NAKIB6.jpg";
 import NAKIB8 from "../Assets/NAKIB8.jpg";
 import ami1 from "../Assets/ami1.jpg";
 import ami2 from "../Assets/ami2.jpg";
 import ami3 from "../Assets/ami3.jpg";
-import ami4 from "../Assets/ami4.png";
+import ami4 from "../Assets/ami4.jpg";
+
+
+// convert all the images into jpg then adding the button of increasing and decreasing of the speed of parallax
 
 export const Data = [
     { id: 1, src: ami1, susu: "class1" },
