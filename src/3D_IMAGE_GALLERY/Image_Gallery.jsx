@@ -11,7 +11,7 @@ const Image_Gallery = () => {
         const mouseX = e.clientX - rect.left;
         const mouseY = e.clientY - rect.top;
 
-        const moveFactor = 500; // Parallax intensity
+        const moveFactor = 400; // Parallax intensity
         const offsetX = (mouseX / rect.width - 0.5) * moveFactor;
         const offsetY = (mouseY / rect.height - 0.5) * moveFactor;
 
