@@ -31,6 +31,8 @@
   height: 35vh;
   position: relative;
   will-change: transform;
+  transition: all 1s cubic-bezier(0.25, 1, 0.5, 1);
+  transform-style: preserve-3d;
 }
 .stick4 img {
   width: 100%;
@@ -129,6 +131,6 @@
 
 @media (max-width: 500px) {
   .stick4 {
-    width: 40vw;
+    width: 30vw;
   }
 }
