@@ -1,78 +1,50 @@
-import edit16 from "../Assets/edit16.jpg";
-import edit1 from "../Assets/edit1.jpg";
-import edit2 from "../Assets/edit2.jpg";
-import edit3 from "../Assets/edit3.jpg";
-import edit5 from "../Assets/edit5.jpg";
-import edit6 from "../Assets/edit6.jpg";
-import edit7 from "../Assets/edit7.jpg";
-import edit8 from "../Assets/edit8.jpg";
-import edit9 from "../Assets/edit9.jpg";
-import edit12 from "../Assets/edit12.jpg";
-import edit13 from "../Assets/edit13.jpg";
-import edit17 from "../Assets/edit17.jpg";
-import n1 from "../Assets/n1.jpg";
-import n2 from "../Assets/n2.jpg";
-import n3 from "../Assets/n3.jpg";
-import n4 from "../Assets/n4.jpg";
-import na1 from "../Assets/na1.jpg";
-import NAKIB5 from "../Assets/NAKIB5.jpg";
-import NAKIB6 from "../Assets/NAKIB6.jpg";
-import NAKIB8 from "../Assets/NAKIB8.jpg";
-import ami1 from "../Assets/ami1.jpg";
-import ami2 from "../Assets/ami2.jpg";
-import ami3 from "../Assets/ami3.jpg";
-import ami4 from "../Assets/ami4.jpg";
-
-
-// convert all the images into jpg then adding the button of increasing and decreasing of the speed of parallax
-
 export const Data = [
-    { id: 1, src: ami1, susu: "class1" },
-    { id: 2, src: edit1, susu: "class2" },
-    { id: 3, src: edit2, susu: "class3" },
-    { id: 4, src: edit3, susu: "class4" },
-    { id: 5, src: edit5, susu: "class5" },
-    { id: 6, src: NAKIB8, susu: "class6" },
-    { id: 7, src: edit7, susu: "class7" },
-    { id: 8, src: ami2, susu: "class8" },
-    { id: 9, src: ami3, susu: "class9" },
-    { id: 10, src: ami4, susu: "class10" },
-    { id: 11, src: edit13, susu: "class11" },
-    { id: 12, src: edit17, susu: "class12" },
-    { id: 13, src: n1, susu: "class13" },
-    { id: 14, src: n2, susu: "class14" },
-    { id: 15, src: n3, susu: "class15" },
-    { id: 16, src: n4, susu: "class16" },
-    { id: 17, src: na1, susu: "class17" },
-    { id: 18, src: NAKIB5, susu: "class18" },
-    { id: 19, src: NAKIB6, susu: "class19" },
-    { id: 20, src: edit6, susu: "class20" },
-    { id: 21, src: edit16, susu: "class21" },
-    { id: 22, src: edit8, susu: "class22" },
-    { id: 23, src: edit12, susu: "class23" },
-    { id: 24, src: edit9, susu: "class24" },
-    { id: 25, src: ami1, susu: "class1" },
-    { id: 26, src: edit1, susu: "class2" },
-    { id: 27, src: edit2, susu: "class3" },
-    { id: 28, src: edit3, susu: "class4" },
-    { id: 29, src: edit5, susu: "class5" },
-    { id: 30, src: NAKIB8, susu: "class6" },
-    { id: 31, src: edit7, susu: "class7" },
-    { id: 32, src: ami2, susu: "class8" },
-    { id: 33, src: ami3, susu: "class9" },
-    { id: 34, src: ami4, susu: "class10" },
-    { id: 35, src: edit13, susu: "class11" },
-    { id: 36, src: edit17, susu: "class12" },
-    { id: 37, src: n1, susu: "class13" },
-    { id: 38, src: n2, susu: "class14" },
-    { id: 39, src: n3, susu: "class15" },
-    { id: 40, src: n4, susu: "class16" },
-    { id: 41, src: na1, susu: "class17" },
-    { id: 42, src: NAKIB5, susu: "class18" },
-    { id: 43, src: NAKIB6, susu: "class19" },
-    { id: 44, src: edit6, susu: "class20" },
-    { id: 45, src: edit16, susu: "class21" },
-    { id: 46, src: edit8, susu: "class22" },
-    { id: 47, src: edit12, susu: "class23" },
-    { id: 48, src: edit9, susu: "class24" },
+    { id: 1, src: "https://i.pinimg.com/736x/9f/9e/f7/9f9ef787ee6582bdfeb3356b9d2739b1.jpg", susu: "class1" },
+    { id: 2, src: "https://i.pinimg.com/736x/c2/45/09/c24509726696ef0c5b0d6f3fea4bce3b.jpg", susu: "class2" },
+    { id: 3, src: "https://i.pinimg.com/736x/bd/c3/00/bdc30034f1fe117e5aa51dc1459052d2.jpg", susu: "class3" },
+    { id: 4, src: "https://i.pinimg.com/736x/08/1d/9b/081d9be3863c25966b5a788c8f30bd3c.jpg", susu: "class4" },
+    { id: 5, src: "https://i.pinimg.com/736x/97/4f/a2/974fa20e73d1f00604f74b31e283e0c9.jpg", susu: "class5" },
+    { id: 6, src: "https://i.pinimg.com/736x/f5/7e/7b/f57e7b53c1fea982e68feea1ff960762.jpg", susu: "class6" },
+    { id: 7, src: "https://i.pinimg.com/736x/f0/ff/b5/f0ffb5548477abf02d7f553e77d1a4ac.jpg", susu: "class7" },
+    { id: 8, src: "https://i.pinimg.com/736x/68/35/37/68353791a7273c452bc6df04baebfb29.jpg", susu: "class8" },
+    { id: 9, src: "https://i.pinimg.com/736x/83/d0/90/83d090cc59508af05ff368da39cee41a.jpg", susu: "class9" },
+    { id: 10, src: "https://i.pinimg.com/736x/98/f7/53/98f753f66d7040a3445586c5ef78838d.jpg", susu: "class10" },
+    { id: 11, src: "https://i.pinimg.com/736x/09/37/86/093786d0a9d5bb63ecc932f5f65b6d9f.jpg", susu: "class11" },
+    { id: 12, src: "https://i.pinimg.com/736x/be/63/6d/be636df0a16df227ed36444057b960d6.jpg", susu: "class12" },
+    { id: 13, src: "https://i.pinimg.com/736x/de/62/23/de622391a2217aa6edcbde3383641bd2.jpg", susu: "class13" },
+    { id: 14, src: "https://i.pinimg.com/736x/94/61/6e/94616e2ef6e22af8c0a282f499d23742.jpg", susu: "class14" },
+    { id: 15, src: "https://i.pinimg.com/736x/b5/81/0d/b5810d13bfea363b93641f6b8f8a34cd.jpg", susu: "class15" },
+    { id: 16, src: "https://i.pinimg.com/736x/b6/ff/fe/b6fffe16e29ec4c3f8b7760f2006394f.jpg", susu: "class16" },
+    { id: 17, src: "https://i.pinimg.com/736x/b2/c4/ce/b2c4ceeacc4f14c317d74906fa852d8f.jpg", susu: "class17" },
+    { id: 18, src: "https://i.pinimg.com/736x/98/db/2c/98db2ce8a174d762d0d691fa39ab3c3f.jpg", susu: "class18" },
+    { id: 19, src: "https://i.pinimg.com/736x/31/a0/c9/31a0c911bc428a480469cbe962ae7fa9.jpg", susu: "class19" },
+    { id: 20, src: "https://i.pinimg.com/736x/6b/0a/12/6b0a126b14e5f5b3b84851037cff8ae5.jpg", susu: "class20" },
+    { id: 21, src: "https://i.pinimg.com/736x/9d/72/56/9d7256bd574e5454e938f4cd7e1aa24e.jpg", susu: "class21" },
+    { id: 22, src: "https://i.pinimg.com/736x/64/77/1b/64771b5d408e83ae64e23395719f54d2.jpg", susu: "class22" },
+    { id: 23, src: "https://i.pinimg.com/736x/14/d4/e7/14d4e772c22c013811e015ae92a9f0ba.jpg", susu: "class23" },
+    { id: 24, src: "https://i.pinimg.com/736x/ae/b6/d0/aeb6d0100bf4d97fac203218258b358e.jpg", susu: "class24" },
+    { id: 25, src: "https://i.pinimg.com/736x/dd/bb/6f/ddbb6f9809aac9f5fc6816173a4646b4.jpg", susu: "class1" },
+    { id: 26, src: "https://i.pinimg.com/736x/ca/be/c4/cabec4f719d72c779839d64f028eef71.jpg", susu: "class2" },
+    { id: 27, src: "https://i.pinimg.com/736x/99/1e/b8/991eb86a78ce12207dedb0c70986fc5a.jpg", susu: "class3" },
+    { id: 28, src: "https://i.pinimg.com/736x/d6/b8/0f/d6b80f0631c2958919f541c20401e20d.jpg", susu: "class4" },
+    { id: 29, src: "https://i.pinimg.com/736x/d2/3e/98/d23e98129d39642eba9d4c12ddb97785.jpg", susu: "class5" },
+    { id: 30, src: "https://i.pinimg.com/736x/5e/60/dd/5e60dd06221c68850f6f8e1b5f4036a9.jpg", susu: "class6" },
+    { id: 31, src: "https://i.pinimg.com/736x/44/7a/8e/447a8e69d4ed31aedfc4c710089fa43d.jpg", susu: "class7" },
+    { id: 32, src: "https://i.pinimg.com/736x/3a/4d/d8/3a4dd8e8d1fdd0df6d5233386ab719bd.jpg", susu: "class8" },
+    { id: 33, src: "https://i.pinimg.com/736x/f4/b1/0f/f4b10f860209ed0147f0cd5238ce6db5.jpg", susu: "class9" },
+    { id: 34, src: "https://i.pinimg.com/736x/ec/c2/fa/ecc2fa65188d3836c60d838f9d627528.jpg", susu: "class10" },
+    { id: 35, src: "https://i.pinimg.com/736x/68/91/a3/6891a3b1a8f22f88fe2ee1a3fac17548.jpg", susu: "class11" },
+    { id: 36, src: "https://i.pinimg.com/736x/45/a1/c5/45a1c57a3cb74f66a68f3f92dbbc37b1.jpg", susu: "class12" },
+    { id: 37, src: "https://i.pinimg.com/736x/00/af/8e/00af8e3ba45d5dd17de80a8395e48fde.jpg", susu: "class13" },
+    { id: 38, src: "https://i.pinimg.com/736x/cc/24/60/cc246029968acfdeff6e0e290d5ec981.jpg", susu: "class14" },
+    { id: 39, src: "https://i.pinimg.com/736x/43/f7/25/43f72533d1470a3090847703e1edf0b4.jpg", susu: "class15" },
+    { id: 40, src: "https://i.pinimg.com/736x/7e/a5/76/7ea57666912f34b898bcc5152a9b3e76.jpg", susu: "class16" },
+    { id: 41, src: "https://i.pinimg.com/736x/93/6d/56/936d56aa5896d9a7813b14f6b670250d.jpg", susu: "class17" },
+    { id: 42, src: "https://i.pinimg.com/736x/e3/a0/f7/e3a0f79840d66c8f7aaa24476ab5e082.jpg", susu: "class18" },
+    { id: 43, src: "https://i.pinimg.com/736x/e5/36/de/e536de59bb16d08284b8a6d003f67d83.jpg", susu: "class19" },
+    { id: 44, src: "https://i.pinimg.com/736x/81/57/34/81573432446e45169842f996a035bf7c.jpg", susu: "class20" },
+    { id: 45, src: "https://i.pinimg.com/736x/08/3a/a9/083aa97462aae3d36d8875f13850b715.jpg", susu: "class21" },
+    { id: 46, src: "https://i.pinimg.com/736x/29/0a/e3/290ae365c89783de947e20f0549101dc.jpg", susu: "class22" },
+    { id: 47, src: "https://i.pinimg.com/736x/be/02/b8/be02b861bb5bdebaf7ea156d6a938034.jpg", susu: "class23" },
+    { id: 48, src: "https://i.pinimg.com/736x/92/99/28/92992838522f8f621e6da3b06b7985c2.jpg", susu: "class24" },
 ];
